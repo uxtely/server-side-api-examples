@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "ISC",
   "main": "examples.js",
-  "homepage": "https://docs.formrig.com/code#-examples-with-http-requests",
+  "homepage": "https://docs.uxtely.com/code#-examples-with-http-requests",
   "dependencies": {
     "body-parser": "1.19.0",
     "express": "4.17.1"

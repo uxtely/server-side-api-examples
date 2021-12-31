@@ -11,7 +11,7 @@ const jsonParser = require('body-parser').json();
 
 
 app.use((_, response, next) => {
-	response.header('Access-Control-Allow-Origin', 'https://free.formrig.com');
+	response.header('Access-Control-Allow-Origin', 'https://free.uxtely.com');
 	response.header('Access-Control-Allow-Headers', 'Content-Type');
 	next();
 });

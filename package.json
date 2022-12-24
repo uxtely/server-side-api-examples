@@ -5,7 +5,10 @@
   "main": "examples.js",
   "homepage": "https://docs.uidrafter.com/javascript#-examples-with-http-requests",
   "dependencies": {
-    "body-parser": "1.20.0",
-    "express": "4.18.1"
+    "body-parser": "1.20.1",
+    "express": "4.18.2"
+  },
+  "scripts": {
+    "outdated": "npm outdated --parseable | awk -F: '{ printf \"npm i %s ;# %s\\n\", $4, $2 }'"
   }
 }

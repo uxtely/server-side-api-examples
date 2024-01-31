@@ -11,7 +11,7 @@ const jsonParser = require('body-parser').json()
 
 
 app.use((_, response, next) => {
-	response.header('Access-Control-Allow-Origin', 'https://free.uidrafter.com')
+	response.header('Access-Control-Allow-Origin', 'https://my.uirig.com')
 	response.header('Access-Control-Allow-Headers', 'Content-Type')
 	next()
 })
